@@ -125,14 +125,37 @@ faqItems.forEach((item) => {
   const question = item.querySelector('.faq-question')
 
   question.addEventListener('click', () => {
-    // Zatvori sve ostale
     faqItems.forEach((i) => {
       if (i !== item) {
         i.classList.remove('active')
       }
     })
 
-    // Toggle trenutno
     item.classList.toggle('active')
   })
+})
+
+//Url correction
+document.addEventListener('DOMContentLoaded', function () {
+  const targetIds = ['about', 'service', 'Gallery', 'team', 'faq', 'contact']
+
+  const targets = targetIds.map((id) => document.getElementById(id)).filter((el) => el !== null)
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id
+          history.replaceState(null, null, `#${id}`)
+        }
+      })
+    },
+    {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5,
+    }
+  )
+
+  targets.forEach((section) => observer.observe(section))
 })
