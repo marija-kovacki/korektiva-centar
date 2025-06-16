@@ -348,7 +348,7 @@ aside button#ig a {
   display: block;
   width: 100%;
   height: 100%;
-  line-height: 53px;
+  line-height: 50px;
 }
 
 /* About us */
@@ -675,7 +675,7 @@ h4 {
   }
 
   .team-wrapper {
-    height: 650px;
+    height: 700px;
   }
 }
 
