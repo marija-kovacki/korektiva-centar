@@ -583,6 +583,7 @@ gallery-content-wrapper #gallery .owl-nav .owl-prev:hover,
   font-size: 1.8rem;
   color: var(--gray);
   background: var(--white);
+  font-family: var(--heading-font);
 }
 
 .about-wrapper h4 span {
@@ -627,6 +628,7 @@ h4 {
   padding: 2rem 0;
   text-align: center;
   font-size: 1.8rem;
+  font-family: var(--heading-font);
 }
 
 .our-team {
