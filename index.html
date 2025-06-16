@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Korektiva - Centar za prevenciju i korekciju deformiteta kičme i stopala</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta
+      name="description"
+      content="Centar za prevenciju i korekciju deformiteta i lošeg držanja kod dece i odraslih. Nega tela i pripreme za sportske aktivnosti. Zdravlje i nega."
+    />
+    <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/src/assets/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      property="og:title"
+      content="Korektiva-centar za prevenciju i korekciju deformiteta kičme i stopala, Zrenjanin"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./src/assets/images/location-img.jpeg" />
+    <meta
+      property="og:description"
+      content="Centar za prevenciju i korekciju deformiteta i lošeg držanja kod dece i odraslih. Nega tela i pripreme za sportske aktivnosti. Zdravlje i nega."
+    />
+    <meta property="og:url" content="https://www.korektivazr.com" />
+    <link rel="apple-touch-icon" href="/src/assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F8EBSWMMQS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-F8EBSWMMQS')
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <button class="hamburger-btn" id="hamburgerToggle">
+        <svg viewBox="0 0 40 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 1.875C0 1.37772 0.197544 0.900805 0.549175 0.549175C0.900805 0.197544 1.37772 0 1.875 0H38.125C38.6223 0 39.0992 0.197544 39.4508 0.549175C39.8025 0.900805 40 1.37772 40 1.875C40 2.37228 39.8025 2.84919 39.4508 3.20083C39.0992 3.55246 38.6223 3.75 38.125 3.75H1.875C1.37772 3.75 0.900805 3.55246 0.549175 3.20083C0.197544 2.84919 0 2.37228 0 1.875ZM0 12.5C0 12.0027 0.197544 11.5258 0.549175 11.1742C0.900805 10.8225 1.37772 10.625 1.875 10.625H38.125C38.6223 10.625 39.0992 10.8225 39.4508 11.1742C39.8025 11.5258 40 12.0027 40 12.5C40 12.9973 39.8025 13.4742 39.4508 13.8258C39.0992 14.1775 38.6223 14.375 38.125 14.375H1.875C1.37772 14.375 0.900805 14.1775 0.549175 13.8258C0.197544 13.4742 0 12.9973 0 12.5ZM1.875 21.25C1.37772 21.25 0.900805 21.4475 0.549175 21.7992C0.197544 22.1508 0 22.6277 0 23.125C0 23.6223 0.197544 24.0992 0.549175 24.4508C0.900805 24.8025 1.37772 25 1.875 25H38.125C38.6223 25 39.0992 24.8025 39.4508 24.4508C39.8025 24.0992 40 23.6223 40 23.125C40 22.6277 39.8025 22.1508 39.4508 21.7992C39.0992 21.4475 38.6223 21.25 38.125 21.25H1.875Z"
+            fill="#333336"
+          />
+        </svg>
+      </button>
+      <a href="/">
+        <img class="logo" src="src/logo.png" />
+      </a>
+      <!-- Desktop nav -->
+      <nav>
+        <a class="nav-link" href="/">Početna</a>
+        <a class="nav-link" href="#about">O nama</a>
+        <a class="nav-link" href="#service">Usluge</a>
+        <a class="nav-link" href="#galleryContainer">Galerija</a>
+        <a class="nav-link" href="#team">Naš tim</a>
+        <a class="nav-link" href="#faq">FAQ</a>
+        <a class="nav-link" href="#footer">Kontakt</a>
+      </nav>
+      <!-- Mobile nav -->
+      <div class="sidebar" id="mobileSidebar">
+        <a href="/">Početna</a>
+        <a href="#about">O nama</a>
+        <a href="#service">Usluge</a>
+        <a href="#galleryContainer">Galerija</a>
+        <a href="#team">Naš tim</a>
+        <a href="#faq">FAQ</a>
+        <a href="#footer">Kontakt</a>
+      </div>
+
+      <div class="overlay" id="overlay"></div>
+    </header>
+
+    <main id="app">
+      <div class="dark-overlay"></div>
+      <div class="hero-section">
+        <h1>Dobrodošli u Korektivu</h1>
+        <p class="sub-heading">
+          Centar za korekciju lošeg držanja i deformiteta kod dece i odraslih
+        </p>
+        <p>
+          Iskusite profesionalne terapeutske tretmane prilagođene vašim potrebama.<br />
+          Naši fizioterapeuti su tu da vam pomognu da povratite pokretljivost i živite bez bolova.
+        </p>
+        <div class="cta-container">
+          <button class="btn-primary">
+            <a href="tel:+381 60 735 32 41">Zakažite termin</a>
+          </button>
+          <button class="btn-secondary">
+            <a href="/korektiva-cenovnik.pdf" target="_blank" rel="noopener noreferrer"
+              >Preuzmite cenovnik</a
+            >
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <aside>
+      <button id="fb">
+        <a href="https://www.facebook.com/korektivazr/" target="_blank" rel="noopener noreferrer">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 11 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 0.500053C11 0.367445 10.9473 0.240268 10.8536 0.1465C10.7598 0.052732 10.6326 5.3443e-05 10.5 5.3443e-05H8C6.74112 -0.0626557 5.5086 0.375445 4.57172 1.21863C3.63485 2.06182 3.06978 3.24155 3 4.50005V7.20005H0.5C0.367392 7.20005 0.240215 7.25273 0.146447 7.3465C0.0526785 7.44027 0 7.56744 0 7.70005V10.3001C0 10.4327 0.0526785 10.5598 0.146447 10.6536C0.240215 10.7474 0.367392 10.8001 0.5 10.8001H3V17.5001C3 17.6327 3.05268 17.7598 3.14645 17.8536C3.24021 17.9474 3.36739 18.0001 3.5 18.0001H6.5C6.63261 18.0001 6.75979 17.9474 6.85355 17.8536C6.94732 17.7598 7 17.6327 7 17.5001V10.8001H9.62C9.73119 10.8017 9.83974 10.7661 9.92848 10.6991C10.0172 10.6321 10.0811 10.5374 10.11 10.4301L10.83 7.83005C10.8499 7.75618 10.8526 7.67872 10.8378 7.60364C10.8231 7.52857 10.7913 7.45788 10.7449 7.39702C10.6985 7.33617 10.6388 7.28676 10.5704 7.25261C10.5019 7.21846 10.4265 7.20048 10.35 7.20005H7V4.50005C7.02487 4.25253 7.14111 4.02317 7.32602 3.85675C7.51093 3.69033 7.75123 3.59881 8 3.60005H10.5C10.6326 3.60005 10.7598 3.54737 10.8536 3.45361C10.9473 3.35984 11 3.23266 11 3.10005V0.500053Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </button>
+      <button id="ig">
+        <a href="https://www.instagram.com/korektivazr/" target="_blank" rel="noopener noreferrer">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.8 0H14.2C17.4 0 20 2.6 20 5.8V14.2C20 15.7383 19.3889 17.2135 18.3012 18.3012C17.2135 19.3889 15.7383 20 14.2 20H5.8C2.6 20 0 17.4 0 14.2V5.8C0 4.26174 0.61107 2.78649 1.69878 1.69878C2.78649 0.61107 4.26174 0 5.8 0ZM5.6 2C4.64522 2 3.72955 2.37928 3.05442 3.05442C2.37928 3.72955 2 4.64522 2 5.6V14.4C2 16.39 3.61 18 5.6 18H14.4C15.3548 18 16.2705 17.6207 16.9456 16.9456C17.6207 16.2705 18 15.3548 18 14.4V5.6C18 3.61 16.39 2 14.4 2H5.6ZM15.25 3.5C15.5815 3.5 15.8995 3.6317 16.1339 3.86612C16.3683 4.10054 16.5 4.41848 16.5 4.75C16.5 5.08152 16.3683 5.39946 16.1339 5.63388C15.8995 5.8683 15.5815 6 15.25 6C14.9185 6 14.6005 5.8683 14.3661 5.63388C14.1317 5.39946 14 5.08152 14 4.75C14 4.41848 14.1317 4.10054 14.3661 3.86612C14.6005 3.6317 14.9185 3.5 15.25 3.5ZM10 5C11.3261 5 12.5979 5.52678 13.5355 6.46447C14.4732 7.40215 15 8.67392 15 10C15 11.3261 14.4732 12.5979 13.5355 13.5355C12.5979 14.4732 11.3261 15 10 15C8.67392 15 7.40215 14.4732 6.46447 13.5355C5.52678 12.5979 5 11.3261 5 10C5 8.67392 5.52678 7.40215 6.46447 6.46447C7.40215 5.52678 8.67392 5 10 5ZM10 7C9.20435 7 8.44129 7.31607 7.87868 7.87868C7.31607 8.44129 7 9.20435 7 10C7 10.7956 7.31607 11.5587 7.87868 12.1213C8.44129 12.6839 9.20435 13 10 13C10.7956 13 11.5587 12.6839 12.1213 12.1213C12.6839 11.5587 13 10.7956 13 10C13 9.20435 12.6839 8.44129 12.1213 7.87868C11.5587 7.31607 10.7956 7 10 7Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </button>
+    </aside>
+
+    <div id="about" class="about-us">
+      <h2>O nama</h2>
+      <div class="about-us-content">
+        <p>
+          U Korektivi radi tim diplomiranih fizioterapueta, dodatno školovanih u Šrot (Schroth)
+          tehnici. Radi se o visoko efektivnoj i uspešnoj metodi vežbanja i terapije, koja ima za
+          cilj da ispravi i/ili zaustavi krivljenje kičme. Ovakav konzervativni vid tretmana se
+          pokazao kao najbolji kod skolioza i kifoza. Program vežbi se određuje na individualnom
+          nivou i prati napredak svakog pojedinačnog polaznika. Takođe, postoje i programi za druge
+          deformitete, poput ravnih stopala, X i O nogu. Pored toga, naš tim primenjuje i druge
+          tehnike za bolna stanja koštanog i mišićnog sistema. Na ovom linku možete pogledati
+          <a
+            href="https://www.youtube.com/watch?v=jyBQGAbuczk&t=2s&ab_channel=VikendicaSantos"
+            target="_blank"
+            rel="noreferrer noopener"
+            >prilog</a
+          >
+          o centru Korektiva.
+        </p>
+        <img src="src/assets/images/baner.png" class="baner-image" alt="baner image" />
+      </div>
+    </div>
+
+    <div id="service" class="services">
+      <h2>Naše usluge</h2>
+      <p>
+        Korektiva nudi stručne rehabilitacione tretmane za sportske povrede, bolove u leđima i
+        vratu, kao i oporavak nakon operacija – prilagođene vašim potrebama i ciljevima.
+      </p>
+
+      <div class="cards-wrapper">
+        <div class="card">
+          <img src="./src/assets/images/s-dijagnostika.jpg" class="card-img" alt="therapist" />
+          <div class="shade-divider"></div>
+          <p class="card-title">Dijagnostika i pregledi</p>
+          <p class="card-text">Pregledi dece i odraslih.</p>
+        </div>
+        <div class="card">
+          <img src="./src/assets/images/s-korekcije.jpg" class="card-img" alt="therapist" />
+          <div class="shade-divider"></div>
+          <p class="card-title">Terapeutski treninzi i korekcije</p>
+          <p class="card-text">
+            Individualni i grupni treninzi, individualna i grupna korekcija stopala, kiropraktika.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./src/assets/images/s-tretmani.jpg" class="card-img" alt="therapist" />
+          <div class="shade-divider"></div>
+          <p class="card-title">Masaže, radionice i tretmani</p>
+          <p class="card-text">
+            Radionice za roditelje i bebe, terapeutske masaže, dryneedling, hidžama, kinezitejping.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-wrapper" id="galleryContainer">
+      <h4 class="gallery-title">Galerija</h4>
+      <div class="gallery-content-wrapper">
+        <div class="owl-carousel" id="gallery">
+          <img class="gallery-img" src="./src/assets/images/clients/1.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/1.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/1.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/2.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/3.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/4.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/5.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/6.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/7.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/8.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/9.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/10.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/11.jpg" alt="client image" />
+          <img class="gallery-img" src="./src/assets/images/clients/12.jpg" alt="client image" />
+        </div>
+      </div>
+      <section id="stats" class="stats-section">
+        <div class="stat">
+          <p><span class="count" data-target="300">0</span>+ Zadovoljnih klijenata</p>
+        </div>
+        <div class="stat">
+          <p><span class="count" data-target="50">0</span>+ Uspešnih korekcija posture</p>
+        </div>
+        <div class="stat">
+          <p>
+            <span class="count" data-target="98">0</span>% Klijenata ostaje posvećeno preporučenom
+            programu
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <div class="about-wrapper">
+      <h4>Utisci naših klijenata o <span>Korektivi</span></h4>
+      <div id="reviews-carousel" class="owl-carousel"></div>
+    </div>
+
+    <div class="team-wrapper">
+      <h4>Naš tim</h4>
+      <div id="team" class="our-team">
+        <div class="team-member">
+          <img class="team-member-img" src="/src/assets/images/jovana.jpg" alt="Jovana Jovic" />
+          <p class="team-member-name">Jovana Jović</p>
+          <p>Diplomirani fizioterapeut Medicinski fakultet u Novom Sadu</p>
+        </div>
+        <div class="team-member">
+          <img class="team-member-img" src="/src/assets/images/marta.jpg" alt="Marta Vig" />
+          <p class="team-member-name">Marta Vig</p>
+          <p>Diplomirani fizioterapeut Medicinski fakultet u Novom Sadu</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-section" id="faq">
+      <img src="./src/assets/images/baner.png" alt="baner" />
+      <h5>Najčešće postavljena pitanja</h5>
+      <div class="faq-item">
+        <button class="faq-question">Šta su korektivne vežbe?</button>
+        <div class="faq-answer">
+          <p>
+            Korektivne vežbe su skup vežbi koje pomažu u ispravljanju lošeg držanja i ublažavanju
+            bolova.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Koliko često treba dolaziti na vežbe?</button>
+        <div class="faq-answer">
+          <p>Preporučuje se 2 do 3 puta nedeljno za optimalne rezultate.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Da li su vežbe prilagođene individualno?</button>
+        <div class="faq-answer">
+          <p>Da, svaki program se prilagođava vašim potrebama i mogućnostima.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Kako izgleda tretman kod nas?</button>
+        <div class="faq-answer">
+          <p>
+            Ako imate Vi ili neko Vama blizak loše držanje, deformitet kičme, ravna stopala, X ili O
+            noge ili određeno bolno stanje u leđima i zglobovima onda ste na pravom mestu! Pre
+            svega, neophodno je zakazati pregled koji je vrlo detaljan i sprovodi ga diplomirani
+            fizioterapeut. On se razlikuje zavisno od razloga zbog koga ste došli i traje do
+            45minuta. <br />
+            Analizira se čitava biomehanika tela, vrše se efektni testovi i sve se dokumentuje. Kada
+            se dođe do zaključka šta je po sredi, terapeut će već na prvom pregledu dati savete šta
+            da radite kod kuće. Zatim se preporučuje koliko tretmana će trebati za korekciju i kojim
+            tempom bi trebali da dolazite. Najčešće je 2 do 3 puta nedeljno. Tretman opet zavisi od
+            stanja, ali opisaćemo Vam svaki od njih. Ako je u pitanju loše držanje ili deformitet
+            kičme kao što je skolioza, kifoza ili lordoza,terapeut će nakon pregleda napisati
+            program po kome će se dalje sprovoditi terapija. Program je INDIVIDUALAN i važi
+            isključivo za osobu za koju je napisan. Iako neko ima deformitet pod istim nazivom, to
+            ne znači da su potpuno ista stanja. Da bi Vam bilo jasnije, daćemo primer skolioze,
+            jedne od najkomleksnijih deformiteta. Ona može biti levostrana ili desnostrana, sa
+            jednom ili više krivina, sa udruženom kifozom…radeći iste vežbe šablonski neće
+            odgovarati svakoj od njih, a nažalost može doći i do pogoršanja. <br />
+            Dakle, u okviru individualnog programa sprovodi se mobilizacija određenih zglobova koji
+            su u asimetriji, istezanje određenih ligamenata koji su skraćeni, kao i najvažnije VEŽBE
+            koje uglavnom sprovodimo po Šrot metodi, veoma delotvornoj i efektivnoj. Kako odmiče
+            vreme, stanje se prati i proverava, prilagođava se terapija i vrlo brzo se vide efekti.
+            Što se tiče stopala, na pregledu se analizira svod kada osoba stane na podoskop pa se
+            jasno vidi koliko i kako se oslanja. Takođe, uzimamo i otisak stopala u vidu
+            plantograma, nakon čega se određuje stepen deformiteta. Tretman se obično sprovodi u
+            vidu raznolikih vezbi koje su prilagođene uzrastu. Bolna stanja iziskuju kompleksan
+            tretman terapeutskih tretmana mobilizacije, primena kinezi traka i kineziterapije.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Šta je skolioza i koji su uzroci skolioze?</button>
+        <div class="faq-answer">
+          <p>
+            Skolioza se smatra za broj 1 bolest savremenog društva, jer je po nedavnim ispitivanjima
+            ima skoro 80% populacije. Ovim tekstom ćemo pokušati da približimo složenost ovog
+            stanja, kako je možete prepoznati, kao i važnost pravog pristupa u lečenju iste.
+            Skolioza je deformitet koji podrazumeva krivljenje kičme u stranu, gledajući osobu s
+            leđa. Oblik krivine kičme kod ovog stanja može biti različit, od latiničnog slova S ili
+            slova C, pa čak i do kombinacije istih slova. <br />
+            Kičmeni pršljenovi su pored toga što su pomereni u stranu, često i rotirani oko svoje
+            ose što dovodi do izmeštanja okolnih struktura. Dešavaju se mnoge promene, počevši od
+            asimetrije karlice i kukova, nejednakosti ramena, a samim tim i različitoj funkcionalnoj
+            dužini nogu i ruku. Ono što ne vidimo uvek golim okom, jesu i skraćeni mišići ili
+            njihova slabost koja je opet asimetrična prateći krivinu. Kod skolioza većeg stepena,
+            značajno se smanjuje i volumen jednog ili oba plućna krila, jer krivina povlači rebra
+            smanjujući prostor u samom grudnom košu. <br />
+            Pravi uzroci nastanka skolioze su u klasičnoj medicini još uvek nepoznati . Smatra se da
+            je više činilaca koji dovode do ovog stanja udruženo, od kojih su: Genetska
+            predispozicija, Komplikovan porođaj, odnosno rođenje, Nedovoljno fizičke aktivnosti,
+            Dugotrajno sedenje, Anatomska razlika u dužini nogu, Posledica drugih stanja
+            lokomotornog aparata.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Kako prepoznati skoliozu kod Vas ili Vašeg deteta?</button>
+        <div class="faq-answer">
+          <p>
+            Da biste prepoznali ovaj deformitet potrebno je da pratite sledeće korake i moći ćete da
+            ukonite sumnje za postojanost ovog stanja. Osoba koja se posmatra mora biti razgolićena
+            do pojasa ili u grudnjaku, bez obuće, okrenutih leđa od osobe koja je posmatra (poželjno
+            je da stoji uz zid zbog kontrasta) Osoba se mora potpuno opustiti i stajati kao što to
+            inače radi u svakodnevnim okolnostima (bez korigovanog ispravljanja!) <br />
+            Posmatramo od gore na dole: Nivo ramena i lopatica (kod skolioze postoji denivelacija,
+            odnosno jedno rame je spušteno u odnosu na drugo, kao i lopatica koja može biti
+            izmeštena u stranu ili isturenija u odnosu na drugu) Simetričnost linija stasa (ugao u
+            visini struka takođe može biti različit kod skolize) Nivelaciju karlice (karlica se kod
+            skolioze gotovo uvek pomeri ili rotira u stranu, pa možete uočiti asimetriju kukova)
+            <br />Poslednji korak bi bio da kažete osobi da savije glavu na dole i da se polako
+            savija u trupu, kao da želi da dotakne pod sa rukama. Ruke moraju biti potpuno opuštene
+            iz ramena. Posmatrajte da li postoje asimetrije duž kičmenog stuba i pored njega, da li
+            uočavate asimetrična „brda“ sa leve ili desne strane od kičmenog stuba. <br />Ako bilo
+            koji od ovih znakova postoji, postoji mogućnost da osoba ima skoliozu. U tom slučaju, mi
+            smo Vam na raspolaganju za detaljnije preglede i rešenja napravljena individualno po
+            potrebi krivine. Nadamo se da Vam je jasnija skolioza kao termin i da će neko uspeti da
+            zapazi problem na vreme uz pomoć navedenih koraka.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-cta">
+      <h6>Da li ste spremni da započnete svoj put ka oporavku?</h6>
+      <p>
+        Zakažite svoju konsultaciju još danas i napravite prvi korak ka životu bez bola uz pomoć
+        našeg stručnog fizioterapeutskog tima.
+      </p>
+      <div class="cta-buttons">
+        <button class="btn-primary">
+          <a href="mailto:korektivazr@gmail.com">Pošaljite nam poruku</a>
+        </button>
+        <button class="btn-secondary">
+          <a href="tel:+381 60 735 32 41">Pozovite nas</a>
+        </button>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./src/logo.png" alt="logo" />
+          <p class="footer-logo-text">
+            Centar za korekciju lošeg držanja i deformiteta <br />
+            kod dece i odraslih
+          </p>
+        </div>
+        <div class="quick-links">
+          <p class="footer-title">Navigacija</p>
+          <ul>
+            <li><a href="#about">O nama</a></li>
+            <li><a href="#service">Naše usluge</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <p class="footer-title">Kontakt informacije</p>
+          <p>
+            <svg
+              width="12"
+              height="16"
+              viewBox="0 0 12 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_2_231)">
+                <g clip-path="url(#clip1_2_231)">
+                  <path
+                    d="M6.74062 15.6C8.34375 13.5938 12 8.73125 12 6C12 2.6875 9.3125 0 6 0C2.6875 0 0 2.6875 0 6C0 8.73125 3.65625 13.5938 5.25938 15.6C5.64375 16.0781 6.35625 16.0781 6.74062 15.6ZM6 4C6.53043 4 7.03914 4.21071 7.41421 4.58579C7.78929 4.96086 8 5.46957 8 6C8 6.53043 7.78929 7.03914 7.41421 7.41421C7.03914 7.78929 6.53043 8 6 8C5.46957 8 4.96086 7.78929 4.58579 7.41421C4.21071 7.03914 4 6.53043 4 6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4Z"
+                    fill="#D1D5DB"
+                  />
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_2_231">
+                  <rect width="12" height="16" fill="white" />
+                </clipPath>
+                <clipPath id="clip1_2_231">
+                  <path d="M0 0H12V16H0V0Z" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span>Nikole Pašića 7, Zrenjanin</span>
+          </p>
+          <p>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_2_236)">
+                <g clip-path="url(#clip1_2_236)">
+                  <path
+                    d="M5.15312 0.768722C4.9125 0.187472 4.27812 -0.121903 3.67188 0.0437222L0.921875 0.793722C0.378125 0.943722 0 1.43747 0 1.99997C0 9.73122 6.26875 16 14 16C14.5625 16 15.0563 15.6218 15.2063 15.0781L15.9563 12.3281C16.1219 11.7218 15.8125 11.0875 15.2312 10.8468L12.2312 9.59685C11.7219 9.38435 11.1313 9.53122 10.7844 9.95935L9.52188 11.5C7.32188 10.4593 5.54063 8.6781 4.5 6.4781L6.04063 5.21872C6.46875 4.86872 6.61562 4.28122 6.40312 3.77185L5.15312 0.771847V0.768722Z"
+                    fill="#D1D5DB"
+                  />
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_2_236">
+                  <rect width="16" height="16" fill="white" />
+                </clipPath>
+                <clipPath id="clip1_2_236">
+                  <path d="M0 0H16V16H0V0Z" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <a href="tel:+381 60 735 32 41">+381 60 735 32 41</a>
+          </p>
+
+          <p>
+            <svg
+              width="16"
+              height="12"
+              viewBox="0 0 16 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.5 0C0.671875 0 0 0.671875 0 1.5C0 1.97187 0.221875 2.41562 0.6 2.7L7.4 7.8C7.75625 8.06563 8.24375 8.06563 8.6 7.8L15.4 2.7C15.7781 2.41562 16 1.97187 16 1.5C16 0.671875 15.3281 0 14.5 0H1.5ZM0 3.5V10C0 11.1031 0.896875 12 2 12H14C15.1031 12 16 11.1031 16 10V3.5L9.2 8.6C8.4875 9.13438 7.5125 9.13438 6.8 8.6L0 3.5Z"
+                fill="#D1D5DB"
+              />
+            </svg>
+            <a href="mailto:korektivazr@gmail.com">korektivazr@gmail.com</a>
+          </p>
+        </div>
+        <div class="k-hours">
+          <p class="footer-title">Radno vreme</p>
+          <p>Ponedeljak - Petak: 9:00 - 20:00</p>
+          <p>Subota: 9:00 - 13:00</p>
+          <p>Nedelja: Zatvoreno</p>
+        </div>
+      </div>
+      <hr />
+      <span class="footer-text">© 2025 Korektiva. All righs reserved.</span>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </body>
+</html>
