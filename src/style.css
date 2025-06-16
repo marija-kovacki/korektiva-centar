@@ -629,6 +629,7 @@ h4 {
   text-align: center;
   font-size: 1.8rem;
   font-family: var(--heading-font);
+  color: var(--black);
 }
 
 .our-team {
