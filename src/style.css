@@ -884,3 +884,11 @@ footer span.footer-text {
     padding-top: 2rem;
   }
 }
+
+/* Developer signature */
+.m-signature {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
